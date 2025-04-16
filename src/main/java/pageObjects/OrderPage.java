@@ -218,4 +218,26 @@ public class OrderPage {
     private void clickTermDropdown() {
         this.webDriver.findElement(this.termDropdownRoot).click();
     }
+    /**
+     * Метод, описывающий процедуру оформления заказа
+     */
+    private void makeOrder(OrderPage orderPage) {
+        orderPage.waitForLoadForm();
+
+        orderPage.setName(this.name);
+        orderPage.setSurname(this.surname);
+        orderPage.setAddress(this.address);
+        orderPage.setMetro(this.metro);
+        orderPage.setPhone(this.phone);
+
+        orderPage.clickNextButton();
+
+        orderPage.setDate(this.date);
+        orderPage.setTerm(this.term);
+        orderPage.setColor(this.color);
+        orderPage.setComment(this.comment);
+
+        orderPage.makeOrder();
+    }
+
 }
