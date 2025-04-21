@@ -1,4 +1,4 @@
-package Sprint_4;
+package sprint4;
 
 
 import org.openqa.selenium.chrome.ChromeDriver;
