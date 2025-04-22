@@ -1,4 +1,4 @@
-package sprint4;
+package Sprint_4;
 
 import pageObjects.MainPage;
 
