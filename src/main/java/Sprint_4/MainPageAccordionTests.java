@@ -62,10 +62,9 @@ public class MainPageAccordionTests {
 
     @Before
     public void startUp() {
-        WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "/Users/rubtsovv/Documents/projects/Sprint_4/target/classes/chromedriver");
-        this.webDriver = new ChromeDriver();
-        this.webDriver.get(this.mainPageUrl);
+        WebDriverManager.chromedriver().setup(); // Инициализируем WebDriverManager
+        this.webDriver = new ChromeDriver(); // Создаем экземпляр ChromeDriver
+        this.webDriver.get(this.mainPageUrl); // Открываем главную страницу
     }
 
     @After
