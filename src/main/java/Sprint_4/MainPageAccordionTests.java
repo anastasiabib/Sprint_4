@@ -1,6 +1,6 @@
 package Sprint_4;
 
-import pageObjects.MainPage;
+import pageobjects.MainPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
