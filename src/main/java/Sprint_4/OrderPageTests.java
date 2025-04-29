@@ -2,8 +2,8 @@ package Sprint_4;
 
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.MainPage;
-import pageObjects.OrderPage;
+import pageobjects.MainPage;
+import pageobjects.OrderPage;
 import org.hamcrest.MatcherAssert;
 import org.junit.After;
 import org.junit.Before;
